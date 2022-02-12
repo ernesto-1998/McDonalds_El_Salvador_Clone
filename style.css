@@ -98,7 +98,7 @@
 
 /* CAROUSEL */
 
-.content-banner {
+.content-carousel {
     margin-top: 90px;
     margin-left: 70px;
     margin-right: 70px;
@@ -127,7 +127,6 @@
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    /* border-radius: 0 3px 3px 0; */
     user-select: none;
   }
 
@@ -142,47 +141,6 @@
     background-color: rgb(249, 204, 70);
     /* border-radius: 3px 0 0 3px; */
   }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  /* .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  } */
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  /* .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  } */
   
   /* Fading animation */
   .fade {
@@ -200,5 +158,43 @@
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  }
+
+  /* BANNER */
+
+  .content-banner {
+      padding: 20px 70px;
+      position: relative;
+  }
+
+  .content-banner img {
+      width: 100%;
+  }
+
+  .content-banner p {
+      position: absolute;
+      font-size: 45px;
+      color: rgb(17, 24, 39);
+      font-weight: bold;
+      top: 25%;
+      right: 10%;
+      line-height: 110%;
+  }
+
+  .btn-banner {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+    font-family: 'Speedee', sans-serif;
+    border-radius: 25px;
+    padding: 5px 35px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .btn-position {
+    position: absolute;
+    right: 10%;
+    top: 70%;
   }
 
