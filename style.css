@@ -99,17 +99,16 @@
 /* CAROUSEL */
 
 .content-banner {
-    margin-top: 70px;
+    margin-top: 90px;
     margin-left: 70px;
     margin-right: 70px;
 }
 
 /* Slideshow container */
 .slideshow-container {
-    /* max-width: 1000px; */
     max-width: 100%;
     position: relative;
-    margin: auto;
+    /* margin: auto; */
   }
   
   /* Hide the images by default */
@@ -121,10 +120,8 @@
   .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: -9%;
-    /* top: 50%; */
+    top: -10%;
     width: auto;
-    /* margin-top: -22px; */
     padding: 10px 15px;
     color: black;
     font-weight: bold;
@@ -135,7 +132,7 @@
   }
 
   .prev {
-    right: 3%;
+    right: 3.1%;
     background-color: rgb(249, 204, 70);
   }
   
@@ -172,7 +169,7 @@
   }
   
   /* The dots/bullets/indicators */
-  .dot {
+  /* .dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -185,7 +182,7 @@
   
   .active, .dot:hover {
     background-color: #717171;
-  }
+  } */
   
   /* Fading animation */
   .fade {
