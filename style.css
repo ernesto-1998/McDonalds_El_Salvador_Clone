@@ -198,3 +198,54 @@
     top: 70%;
   }
 
+  /* CARDS */
+
+  .content-card {
+    padding: 20px 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card1, .card2 {
+    background-color: rgb(243, 244, 246);
+  }
+
+  .card1 {
+    margin-right: 20px;
+  }
+
+  .parrafo1 {
+    font-size: 30px;
+    font-weight: bold; 
+    color: rgb(17, 24, 39);
+  }
+
+  .parrafo2 {
+    font-size: 1rem;
+    /* line-height: 1.5rem; */
+    margin-top: 15px;
+  }
+
+  .card2 {
+    margin-left: 20px;
+  }
+
+  .btnSpace {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+  }
+
+  .btnCard {
+    background-color: rgb(255, 188, 13);
+    border: none;
+    font-weight: bold;
+    font-family: 'Speedee', sans-serif;
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-size: 15px;
+    cursor: pointer;
+    /* margin: 0 250px; */
+}
+
